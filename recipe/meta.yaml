@@ -1,6 +1,6 @@
 {% set name = "django-filter" %}
-{% set version = "0.15.3" %}
-{% set sha256 = "b90137c03034db1acf9dbfb336e2a0cb11c25b2e6874b4bc60e1fc9613d24644" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "04c4a2d4eb17af35960dbaebe43f25a64c501a2cbf924d2866f5d68367ee717a" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,7 @@ test:
 
 about:
   home: http://github.com/carltongibson/django-filter/tree/master
-  summary: 'Django-filter is a reusable Django application for allowing users to filter querysets dynamically.'
+  summary: 'Django-filter is a a generic system for filtering Django QuerySets based on user selections'
   license: BSD 3-Clause
   license_file: LICENSE
   license_family: BSD
