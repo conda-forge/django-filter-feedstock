@@ -26,6 +26,10 @@ requirements:
     - djangorestframework
 
 test:
+  requires:
+    # Hack since the django feedstock appears not to have this correctly listed a run req.
+    - pytz
+
   commands:
     - python -c "import django; from django.conf import settings; settings.configure(); django.setup(); import django_filters; import django_filters.rest_framework"
 
