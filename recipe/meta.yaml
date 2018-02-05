@@ -1,6 +1,6 @@
 {% set name = "django-filter" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "6a1f900ab8a531629db8c71c9a3f4fcd22d219536ca3e705e05cddded887f0c7" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "ec0ef1ba23ef95b1620f5d481334413700fb33f45cd76d56a63f4b0b1d76976a" %}
 
 package:
   name: {{ name|lower }}
