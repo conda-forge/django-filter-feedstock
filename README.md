@@ -14,9 +14,7 @@ Summary: Django-filter is a a generic system for filtering Django QuerySets base
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-filter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-filter-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-filter-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-filter-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-filter-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-filter-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/django-filter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-filter-feedstock)
 
 Current release info
 ====================
