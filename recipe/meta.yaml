@@ -1,6 +1,6 @@
 {% set name = "django-filter" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "6a1f900ab8a531629db8c71c9a3f4fcd22d219536ca3e705e05cddded887f0c7" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "2894cb3dbea0a7e0117f9f5fe8e64d356113784b51346e2cd23b49b3fb97e71e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,6 +13,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
