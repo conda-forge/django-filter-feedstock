@@ -14,12 +14,15 @@ Summary: Django-filter is a a generic system for filtering Django QuerySets base
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/django-filter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-filter-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/django-filter-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/django-filter-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-filter/badges/version.svg)](https://anaconda.org/conda-forge/django-filter)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/django-filter/badges/downloads.svg)](https://anaconda.org/conda-forge/django-filter)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-django--filter-green.svg)](https://anaconda.org/conda-forge/django-filter) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/django-filter.svg)](https://anaconda.org/conda-forge/django-filter) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/django-filter.svg)](https://anaconda.org/conda-forge/django-filter) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/django-filter.svg)](https://anaconda.org/conda-forge/django-filter) |
 
 Installing django-filter
 ========================
