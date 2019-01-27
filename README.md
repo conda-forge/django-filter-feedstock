@@ -7,7 +7,7 @@ About django-filter
 
 Home: http://github.com/carltongibson/django-filter/tree/master
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -114,4 +114,5 @@ Feedstock Maintainers
 =====================
 
 * [@kwilcox](https://github.com/kwilcox/)
+* [@ocefpaf](https://github.com/ocefpaf/)
 
