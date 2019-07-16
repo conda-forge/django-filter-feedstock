@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About django-filter
 ===================
 
@@ -18,8 +14,15 @@ Summary: Django-filter is a a generic system for filtering Django QuerySets base
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/django-filter-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/django-filter-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2895&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/django-filter-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
