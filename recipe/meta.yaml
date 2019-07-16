@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: django-filter
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/carltongibson/django-filter/archive/{{ version }}.tar.gz
-  sha256: bfa476fa3c8773145ab1ebf9396da066049604bf709fb933fa132c275c527fdf
+  sha256: b79b3e40b3c4ddabec8b1ba7e083351129950d9ec8ea155a96e3ff965033c2d3
 
 build:
   number: 0
