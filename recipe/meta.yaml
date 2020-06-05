@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: django-filter
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/carltongibson/django-filter/archive/{{ version }}.tar.gz
-  sha256: b79b3e40b3c4ddabec8b1ba7e083351129950d9ec8ea155a96e3ff965033c2d3
+  sha256: b60ad8daf511389ef3244fb8d1bd91c66badbfe5e685b86dd41ac88bd13529b0
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -27,7 +27,7 @@ test:
 
 about:
   home: http://github.com/carltongibson/django-filter/tree/master
-  summary: 'Django-filter is a a generic system for filtering Django QuerySets based on user selections'
+  summary: Django-filter is a a generic system for filtering Django QuerySets based on user selections
   license: BSD-3-Clause
   license_file: LICENSE
   license_family: BSD
