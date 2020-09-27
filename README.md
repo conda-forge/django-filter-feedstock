@@ -5,7 +5,7 @@ Home: http://github.com/carltongibson/django-filter/tree/master
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Django-filter is a a generic system for filtering Django QuerySets based on user selections
 
