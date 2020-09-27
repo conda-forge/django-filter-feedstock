@@ -11,19 +11,25 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.4
+    - python >=3.5
     - pip
   run:
-    - python >=3.4
-    - django >=1.11
+    - python >=3.5
+    - django >=2.2
 
 test:
+  imports:
+    - django_filters
+    - django_filters.rest_framework
   commands:
+    - pip check
     - python -c "import django; from django.conf import settings; settings.configure(); django.setup(); import django_filters; import django_filters.rest_framework"
+  requires:
+    - pip
 
 about:
   home: http://github.com/carltongibson/django-filter/tree/master
