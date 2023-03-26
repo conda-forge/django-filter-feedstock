@@ -1,11 +1,11 @@
-About django-filter
-===================
+About django-filter-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-filter-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/carltongibson/django-filter/tree/master
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-filter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Django-filter is a a generic system for filtering Django QuerySets based on user selections
 
