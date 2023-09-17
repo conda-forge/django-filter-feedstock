@@ -1,4 +1,4 @@
-{% set version = "23.2" %}
+{% set version = "23.3" %}
 
 package:
   name: django-filter
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/carltongibson/django-filter/archive/{{ version }}.tar.gz
-  sha256: 854b89db4b85982e62aafee5aca9730b76559f92192980490e88d5a56cb06df6
+  sha256: 2d149f36acee64fb0d449d5bb8acd000b3c5617f4eed7d5023b242c4a7a87db3
 
 build:
   number: 0
@@ -15,11 +15,12 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.7
+    - flit-core >=3.2,<4
     - pip
   run:
-    - python >=3.5
-    - django >=2.2
+    - python >=3.7
+    - django >=3.2
 
 test:
   imports:
