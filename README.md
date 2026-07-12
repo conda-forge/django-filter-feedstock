@@ -3,24 +3,23 @@ About django-filter-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-filter-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/carltongibson/django-filter/tree/master
+Home: https://github.com/carltongibson/django-filter/tree/main
 
 Package license: BSD-3-Clause
 
-Summary: Django-filter is a a generic system for filtering Django QuerySets based on user selections
+Summary: Django-filter is a reusable Django application for allowing users to filter querysets dynamically.
 
-Development: https://github.com/carltongibson/django-filter
-
-Documentation: https://django-filter.readthedocs.io/en/latest/
+Documentation: https://django-filter.readthedocs.io/en/main/
 
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2895&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/django-filter-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/django-filter-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/django-filter-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
